@@ -53,8 +53,6 @@ def main():
             if game.isover():
                 game.running = False
 
-
-    
         pygame.display.update()
 
 

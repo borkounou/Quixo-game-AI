@@ -1,13 +1,9 @@
 from constants import *
 import numpy as np
-
-
-import numpy as np
-
-
-
-
-
+import pygame
+screen = pygame.display.set_mode((HEIGHT, WIDTH))
+pygame.display.set_caption("QUIXO AI")
+screen.fill(BG_COLOR)
 class Board:
     def __init__(self):
         self.squares = np.zeros((ROWS, COLS))
